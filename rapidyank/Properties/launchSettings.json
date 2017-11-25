@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "rapidyank": {
+      "commandName": "Project",
+      "commandLineArgs": "test --webservice"
+    }
+  }
+}
