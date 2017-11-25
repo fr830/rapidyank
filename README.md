@@ -1,5 +1,5 @@
 # rapidyank
-rapidyank is a net core 2 console app that will constantly poll [Rapid Scada](https://github.com/RapidScada)'s web service to get readings and persist them in a relational database.
+rapidyank is a net core 2 console app that will constantly poll [Rapid Scada](https://github.com/RapidScada)'s web service to get readings and persist them in a relational database. It's goal is to facilitate data analysis and reports development by using common data storage technology.
 
 # Getting Started
 
@@ -31,18 +31,18 @@ You can run the program with Visual Studio 2017, using net core 2. Modify **apps
 
 ## Running the app
 
-Test if the web service connection is working
 ```bash
+# test if the web service connection is working
 dotnet rapidyank.dll test --webservice
 ```
 
-Test if the database connection is working (not implemented yet)
 ```bash
+# test if the database connection is working (not implemented yet)
 dotnet rapidyank.dll test --database
 ```
 
-Start polling data
 ```bash
+# start polling data
 dotnet rapidyank.dll transfer
 ```
 
